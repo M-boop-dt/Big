@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ben-whittaker-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    autoDeploy: true
+    repo: https://github.com/M-boop-dt/Big
