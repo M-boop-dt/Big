@@ -1,0 +1,14 @@
+
+  "name": "ben-whittaker-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot with 300 commands using Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
+    "dotenv": "^16.0.3",
+    "pino": "^8.14.1"
+  }
+}
